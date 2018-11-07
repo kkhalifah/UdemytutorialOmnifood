@@ -11,13 +11,15 @@
     box-sizing: border-box;
 }
 
-html {
+html,
+body {
     background-color: #fff;
     color: #555;
     font-family: 'Lato', 'Arial', sans-serif;
     font-weight: 300;
     font-size: 20px;
     text-rendering: optimizeLegibility;
+    overflow-x: hidden;
 }
 .clearfix {
     zoom:1
@@ -303,16 +305,24 @@ header {
 .steps-box:first-child {
     text-align: right;
     padding-right: 3%;
-    margin-top: 30px;
+    /*margin-top: 30px;*/
 }
+
 .steps-box:last-child {
     padding-left: 3%;
     margin-top: 70px;
     
 }
-.app-screen {
+.app-screen
+{
     width: 40%;
+    margin-left: 10px;
+    text-align: center;
 }
+.phone {
+    text-align: center;
+}
+
 .works-step {
     margin-bottom: 50px;
 }
