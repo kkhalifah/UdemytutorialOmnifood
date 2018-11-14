@@ -100,6 +100,23 @@ $('a[href*="#"]')
         }
         
     });
+   
+    /* map*/    
+      var map = new GMaps({
+      div: '.map',
+      lat: 42.3523699,
+      lng: -83.3,
+      zoom: 12
+    });
+    
+    map.addMarker({
+      lat: 42.3523699,
+      lng: -83.3793973,
+      title: 'Detroit',
+      infoWindow: {
+        content: '<p>Our Detroit Headquarters</p>'
+        }
+    });
     
     
 });
