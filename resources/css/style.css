@@ -1,10 +1,7 @@
 /* Orange color: #e67e22 */
-
 /* ------------------------------------------------*/
 /* BASIC SETUP*/
 /* ------------------------------------------------*/
-
-
 * {
     margin: 0;
     padding: 0;
@@ -204,7 +201,7 @@ h2:after {
 /* ------------------------------------------------*/
 
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.68), #000), url(img/hero.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.68), #000), url(img/hero-min.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -421,7 +418,7 @@ header {
 /* ------------------------------------------------*/
 
 .section-testimonials {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.81), rgba(0, 0, 0, 0.78)), url(img/back-customers.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.81), rgba(0, 0, 0, 0.78)), url(img/back-customers-min.jpg);
     background-size: cover;
     color: #fff;
     background-attachment: fixed;
@@ -624,6 +621,7 @@ footer p {
     opacity: 0;
     animation-duration: 1s;
 }
+
 .js--wp-4 {
     animation-duration: 1s;
 }
