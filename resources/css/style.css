@@ -540,13 +540,13 @@ input[type=checkbox] {
 
 .map-box {
     width: 100%;
-    height: 560px;
+    height: 630px;
     position: relative;
 }
 
 .map {
     width: 100%;
-    height: 560px;  
+    height: 630px;  
     position: relative;
     z-index: 0;
 }
@@ -558,7 +558,7 @@ input[type=checkbox] {
     right: 0;
     background-color: rgba(255, 255, 255, 0.80);
     z-index: 10;
-    height: 500px;
+    height: 630px;
     padding-top: 40px;
 }
 
@@ -568,9 +568,10 @@ input[type=checkbox] {
     padding: 10px;
     border-radius: 3px;
     margin-bottom: 20px;
+    color: #333;
 }
 .success {background-color: rgba(109, 235, 99, 0.68); }
-.error { background-color: #e53838;}
+.error { background-color: #ef5c5c;}
 
 /* ------------------------------------------------*/
 /* FOOTER */

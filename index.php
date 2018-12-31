@@ -342,7 +342,7 @@
                 
             </div>
         </section>
-         <section class="section-form">
+        
        <div class="map-box">
             <div class="map"></div>
            <div class="form-box" id="form">
@@ -350,14 +350,20 @@
                     <h2>We're happy to hear from you</h2>
                         </div>
                     <div class="row">
-                        <form method="post" action="#" class="contact-form">
-                            <!-- 
-                            <div class="row">
-                                <div class="form-messages success"> Thank you! Your message has been sent.
-                                </div>
-                                 <div class="form-messages error"> Sorry, your message has not been sent. Please try again.
-                                </div> -->
+                        <form method="post" action="mailer.php" class="contact-form">
                             
+                            <div class="row">
+                            <?php
+                                if ($_GET['success'] == 1){
+                                    echo  "<div class=\"form-messages success\"> Thank you! Your message has been sent. </div>";
+                                }
+                                
+                                if ($_GET['success'] == 1){
+                                    echo  "<div class=\"form-messages error\"> Sorry, your message has not been sent. Please try again. </div>";
+                                }
+                
+                            ?>
+                            </div>
                             
                             <div class="row">
                                 <div class="col span-1-of-3">
@@ -419,9 +425,9 @@
                             </div>
                         </form>
                     </div>
+                
          </div>
       </div>
-    </section>
         
         <footer>
             <div class="row">
